@@ -1,0 +1,107 @@
+{
+  "window": {
+    "start": "2025-11-12 08:00",
+    "end": "2025-11-23 23:59"
+  },
+  "rules": {
+    "gap_after_finish_hours": 2,
+    "gap_before_assembly_hours": 12,
+    "assembly_earliest_hour": 9
+  },
+  "employees": [
+    {
+      "name": "Dave",
+      "abilities": [
+        "prep",
+        "finishing"
+      ],
+      "shifts": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "08:00",
+          "end": "16:00"
+        }
+      ],
+      "days_off": [
+        "2025-11-14",
+        "2025-11-16"
+      ]
+    },
+    {
+      "name": "Michele",
+      "abilities": [
+        "prep"
+      ],
+      "shifts": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "start": "09:00",
+          "end": "15:00"
+        }
+      ],
+      "days_off": [
+        "2025-11-16"
+      ]
+    },
+    {
+      "name": "Ella",
+      "abilities": [
+        "prep"
+      ],
+      "shifts": [
+        {
+          "days": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "start": "08:00",
+          "end": "15:30"
+        }
+      ],
+      "days_off": []
+    }
+  ],
+  "priorities": {
+    "customers": {
+      "Nancy Gagliardi": 0.1,
+      "Laurie Few": 0.2,
+      "East House Design": 0.3
+    },
+    "targets": [
+      {
+        "customer": "Nancy Gagliardi",
+        "stage": "Assembly",
+        "by": "2025-11-14 00:00"
+      },
+      {
+        "customer": "Laurie Few",
+        "stage": "Assembly",
+        "by": "2025-11-14 00:00"
+      },
+      {
+        "customer": "East House Design",
+        "stage": "Assembly",
+        "by": "2025-11-14 00:00"
+      }
+    ]
+  },
+  "special_projects": []
+}
